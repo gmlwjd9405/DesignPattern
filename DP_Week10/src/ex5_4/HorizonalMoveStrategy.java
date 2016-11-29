@@ -1,6 +1,6 @@
 package ex5_4;
 
-public class HorizonalMoveStrategy extends DirectionStrategy {
+public class HorizonalMoveStrategy implements DirectionStrategy {
 
 	@Override
 	public void move(Ball ball) {

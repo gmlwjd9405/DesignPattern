@@ -1,7 +1,4 @@
-package robot;
-
-import attackStrategy.AttackStrategy;
-import movingStrategy.MovingStrategy;
+package main;
 
 public abstract class Robot {
 	private String name;

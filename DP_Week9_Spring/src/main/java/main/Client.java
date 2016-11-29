@@ -1,9 +1,8 @@
+package main;
 
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
-
-import robot.Robot;
 
 public class Client {
 	public static void main(String[] args) {

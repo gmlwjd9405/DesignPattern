@@ -1,4 +1,4 @@
-package robot;
+package main;
 
 public class TaekwonV extends Robot {
 	public TaekwonV(String name) {

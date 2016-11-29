@@ -1,4 +1,4 @@
-package movingStrategy;
+package main;
 
 public class Walk implements MovingStrategy {
 

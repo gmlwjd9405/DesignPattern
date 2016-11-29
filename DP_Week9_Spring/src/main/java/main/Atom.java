@@ -1,4 +1,4 @@
-package robot;
+package main;
 
 public class Atom extends Robot {
 	public Atom(String name) {

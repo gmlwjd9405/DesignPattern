@@ -1,4 +1,4 @@
-package attackStrategy;
+package main;
 
 public class Punch implements AttackStrategy {
 
