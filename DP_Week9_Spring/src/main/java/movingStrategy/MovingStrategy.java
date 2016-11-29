@@ -1,4 +1,4 @@
-package code5_3_Spring;
+package movingStrategy;
 
 public interface MovingStrategy {
 	public abstract void move();

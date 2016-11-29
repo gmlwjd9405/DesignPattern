@@ -1,4 +1,7 @@
-package code5_3_Spring;
+package robot;
+
+import attackStrategy.AttackStrategy;
+import movingStrategy.MovingStrategy;
 
 public abstract class Robot {
 	private String name;

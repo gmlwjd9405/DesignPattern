@@ -1,4 +1,4 @@
-package code5_3_Spring;
+package robot;
 
 public class Sungard extends Robot {
 	public Sungard(String name) {

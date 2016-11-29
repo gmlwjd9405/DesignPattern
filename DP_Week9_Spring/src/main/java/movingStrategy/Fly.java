@@ -1,4 +1,4 @@
-package code5_3_Spring;
+package movingStrategy;
 
 public class Fly implements MovingStrategy {
 
