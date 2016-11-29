@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean name="walk" class="code5_3_Spring.Walk"></bean>
+	<bean name="fly" class="code5_3_Spring.Fly"></bean>
+	<bean name="rabit" class="code5_3_Spring.Rabit"></bean>
+
+
+	<bean name="misslie" class="code5_3_Spring.Missile"></bean>
+	<bean name="punch" class="code5_3_Spring.Punch"></bean>
+	<bean name="gun" class="code5_3_Spring.Gun"></bean>
+
+
+	<bean name="taekwonV" class="code5_3_Spring.TaekwonV">
+		<constructor-arg value="taekwonV" />
+		<property name="movingStrategy" ref="walk" />
+		<property name="attackStrategy" ref="misslie" />
+	</bean>
+	<bean name="atom" class="code5_3_Spring.Atom">
+		<constructor-arg value="atom" />
+		<property name="movingStrategy" ref="fly" />
+		<property name="attackStrategy" ref="punch" />
+	</bean>
+	<bean name="sungard" class="code5_3_Spring.Sungard">
+		<constructor-arg value="sungard" />
+		<property name="movingStrategy" ref="rabit" />
+		<property name="attackStrategy" ref="gun" />
+	</bean>
+
+</beans>
