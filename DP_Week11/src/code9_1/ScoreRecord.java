@@ -12,12 +12,13 @@ public class ScoreRecord {
 	// this.dataSheetView = dataSheetView;
 	// }
 	//
-	// /** 새로운 점수를 추가 */
+	// // 새로운 점수를 추가하면 출력하는 것에 변화를 통보(update())하여 출력하는 부분 갱신
 	// public void addScore(int score) {
 	// scores.add(score); // scores 목록에 주어진 점수를 추가함
 	// dataSheetView.update(); // scores가 변경됨을 통보함
 	// }
 	//
+	// // 출력하는 부분에서 변화된 내용을 얻어감
 	// public List<Integer> getScoreRecord() {
 	// return scores;
 	// }
@@ -30,12 +31,13 @@ public class ScoreRecord {
 	// this.dataSortedView = dataSortedView;
 	// }
 	//
-	// /** 새로운 점수를 추가 */
+	// // 새로운 점수를 추가하면 출력하는 것에 변화를 통보(update())하여 출력하는 부분 갱신
 	// public void addScore(int score) {
 	// scores.add(score); // scores 목록에 주어진 점수를 추가함
 	// dataSortedView.update(); // scores가 변경됨을 통보함
 	// }
 	//
+	// // 출력하는 부분에서 변화된 내용을 얻어감
 	// public List<Integer> getScoreRecord() {
 	// return scores;
 	// }
@@ -53,13 +55,14 @@ public class ScoreRecord {
 		this.dataSortedView = dataSortedView;
 	}
 
-	/** 새로운 점수를 추가 */
+	// 새로운 점수를 추가하면 출력하는 것에 변화를 통보(update())하여 출력하는 부분 갱신
 	public void addScore(int score) {
 		scores.add(score); // scores 목록에 주어진 점수를 추가함
 		dataSheetView.update(); // scores가 변경됨을 통보함
 		dataSortedView.update(); // scores가 변경됨을 통보함
 	}
 
+	// 출력하는 부분에서 변화된 내용을 얻어감
 	public List<Integer> getScoreRecord() {
 		return scores;
 	}
