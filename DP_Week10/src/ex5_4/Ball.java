@@ -70,8 +70,9 @@ public class Ball extends Thread {
 		directionStrategy.move(this);
 	}
 
+	@Override
 	public void run() {
 		draw();
-		move();
+		move(); //while문으로 무한루프를 돌면서 볼이 이동함
 	}
 }

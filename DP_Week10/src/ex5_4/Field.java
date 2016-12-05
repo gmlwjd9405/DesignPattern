@@ -14,8 +14,7 @@ public class Field extends JPanel implements Runnable {
 		setLayout(new FlowLayout());
 	}
 
-	
-	//????????????????????????????????????
+
 	@Override
 	public void paint(Graphics g) {
 		g.clearRect(0, 0, BallFrame.WIDTH, BallFrame.HEIGHT);
@@ -25,9 +24,12 @@ public class Field extends JPanel implements Runnable {
 		}
 	}
 
+	
 	public void run() {
 		while (true) {
+			//component의 paint()메서드를 호출한다.
 			repaint();
+			
 			try {
 				Thread.sleep(5);
 			} catch (InterruptedException e) {
