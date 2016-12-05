@@ -13,6 +13,7 @@ public class PriceObserver implements Observer {
 	}
 
 	public void update(Observable obj, Object arg) {
+		//받아온 인지의 타입이 Float이면  변한것으로 생각
 		if (arg instanceof Float) {
 			price = ((Float) arg).floatValue();
 			System.out.println("PriceObserver: Price changed to " + price);

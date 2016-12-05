@@ -7,7 +7,6 @@ import java.util.List;
 public abstract class Subject {
 	private List<Observer> observers = new ArrayList<Observer>(); // 출력 형태에 대한
 	// observer
-
 	
 	/** 여러 개에 대한 setter */
 	public void addObserver(Observer observer) {

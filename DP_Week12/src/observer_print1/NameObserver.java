@@ -13,6 +13,7 @@ public class NameObserver implements Observer {
 	}
 
 	public void update(Observable obj, Object arg) {
+		//받아온 인지의 타입이 String이면  변한것으로 생각
 		if (arg instanceof String) {
 			name = (String) arg;
 			System.out.println("NameObserver: Name changed to " + name);

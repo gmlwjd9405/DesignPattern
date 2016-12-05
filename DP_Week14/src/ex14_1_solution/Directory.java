@@ -12,6 +12,7 @@ public class Directory extends Item {
 
 	public void addItem(Item item) {
 		items.add(item);
+		// 현재 디렉토리에서 item이 추가되면 depth는 하나 증가한다.
 		item.setDepth(depth + 1);
 	}
 
