@@ -1,5 +1,5 @@
 package code8_4;
 
 public interface Command {
-	public void execute();
+	public abstract void execute();
 }

@@ -1,6 +1,7 @@
 package code8_4;
 
 public class RemoteController {
+	/* 버튼 하나 */
 	// private Command theCommand;
 	//
 	// public RemoteController(Command theCommand) {
@@ -15,6 +16,7 @@ public class RemoteController {
 	// theCommand.execute();
 	// }
 
+	/* 버튼 두개 */
 	private Command command1;
 	private Command command2;
 
